@@ -33,6 +33,6 @@ I’ve also worked on robotics, data analysis, web applications, and applied ML 
 [![Ferrite](https://github-readme-stats.vercel.app/api/pin/?username=AaravGupta17\&repo=Ferrite\&hide_border=true)](https://github.com/AaravGupta17/Ferrite)
 [![AcousticLeakNet](https://github-readme-stats.vercel.app/api/pin/?username=AaravGupta17\&repo=SJWP_Research\&hide_border=true)](https://github.com/AaravGupta17/SJWP_Research)
 
-[GitHub](https://github.com/AaravGupta17) · [Website](https://aaravgupta17.github.io)
+[GitHub](https://github.com/AaravGupta17) · [Website](https://aaravgupta17.github.io)(In progress)
 
 Currently finishing school and looking for opportunities to work on technically challenging problems with experienced engineers and researchers.
