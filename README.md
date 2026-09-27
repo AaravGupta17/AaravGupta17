@@ -1,28 +1,31 @@
 # Aarav Gupta
 
-I build software around systems, machine learning, algorithms, and quantitative computing. I’m particularly interested in understanding how things work underneath higher-level abstractions, so a lot of my projects involve implementing components from scratch and measuring how they perform.
+I build software around systems, machine learning, and quantitative computing. I like understanding what happens underneath high-level abstractions, so most of my projects implement components from scratch and measure how they perform.
 
 ### Selected work
 
-**[Ferrite](https://github.com/AaravGupta17/Ferrite)**
-A lightweight neural-network inference runtime written in C11. I built the tensor and memory-management layer, ONNX importer, graph optimisation pipeline, execution planning, quantisation paths, and hand-written AVX2 kernels. The project focuses on understanding the systems behind modern ML inference, from model representation through execution and hardware-level optimisation.
+**[Ferrite](https://github.com/AaravGupta17/Ferrite)**: A from-scratch neural network inference runtime in C11, built with a collaborator. I wrote the tensor library, math backend, operator kernels, hand-written AVX2 SIMD kernels (13.4× matmul speedup), and INT8 quantisation (75% memory reduction). It runs our AcousticLeakNet model end-to-end from an ONNX file.
 
-**[AcousticLeakNet](https://github.com/AaravGupta17/SJWP_Research)**
-A research project for detecting and localising water-pipe leaks from acoustic signals. The system uses EPANET-generated simulations and a 1D CNN with cross-channel attention to learn from multi-sensor acoustic data.
+**[AcousticLeakNet](https://github.com/AaravGupta17/SJWP_Research)**: A research project on detecting and localising water-pipe leaks from acoustic signals, co-authored with a teammate. I designed the architecture (a 1D CNN with a cross-channel attention module) and ran all model training on EPANET-generated simulations. I'm currently working on the gap between simulated and real-world sensor data.
 
-**Quantitative computing**
-I’ve worked on market-data analysis, simulation, optimisation, and quantitative models, including Monte Carlo optimisation during a quant developer internship.
+**[BRSR Liquidity Study](https://github.com/AaravGupta17/brsr-liquidity-rdd)**: Solo econometrics research on whether India's mandatory ESG disclosure rules (BRSR) improved stock market liquidity, using regression discontinuity and event-study methods.
+
+<!-- OPTION A: use if it was a real internship. Replace [Firm]. -->
+**Quantitative computing**: Market-data analysis, simulation, and Monte Carlo optimisation during a quant developer internship at [Firm].
+
+<!-- OPTION B: use if it was the Forage program or self-directed work. -->
+**Quantitative computing**: Market-data analysis, simulation, and Monte Carlo optimisation projects, including JPMorgan's software engineering virtual experience (Forage).
 
 ### Other projects
 
-I’ve also worked on robotics, data analysis, web applications, and applied ML projects, including **NCRT GPT**, **Krishi Mitra**, and a line-following robot.
+Robotics (autonomous maze-solving robot on ESP32), a retrieval-augmented chatbot for CBSE Class 11–12 science ([NCERTGPT](https://github.com/AaravGupta17/NCERTGPT)), Krishi Mitra, and a line-following robot.
 
 ### Technical interests
 
-* Systems and performance engineering
-* ML infrastructure and inference
-* Algorithms and optimisation
-* Quantitative computing
+- Systems and performance engineering
+- ML infrastructure and inference
+- Algorithms and optimisation
+- Quantitative computing
 
 ### Tools
 
@@ -30,9 +33,7 @@ I’ve also worked on robotics, data analysis, web applications, and applied ML 
 
 ### Selected repositories
 
-[![Ferrite](https://github-readme-stats.vercel.app/api/pin/?username=AaravGupta17\&repo=Ferrite\&hide_border=true)](https://github.com/AaravGupta17/Ferrite)
-[![AcousticLeakNet](https://github-readme-stats.vercel.app/api/pin/?username=AaravGupta17\&repo=SJWP_Research\&hide_border=true)](https://github.com/AaravGupta17/SJWP_Research)
-
-[GitHub](https://github.com/AaravGupta17) · [Website](https://aaravgupta17.github.io)(In progress)
+[![Ferrite](https://github-readme-stats.vercel.app/api/pin/?username=AaravGupta17&repo=Ferrite&hide_border=true)](https://github.com/AaravGupta17/Ferrite)
+[![AcousticLeakNet](https://github-readme-stats.vercel.app/api/pin/?username=AaravGupta17&repo=SJWP_Research&hide_border=true)](https://github.com/AaravGupta17/SJWP_Research)
 
 Currently finishing school and looking for opportunities to work on technically challenging problems with experienced engineers and researchers.
