@@ -4,7 +4,7 @@ I build software around systems, machine learning, and quantitative computing. I
 
 ### Selected work
 
-**[Ferrite](https://github.com/AaravGupta17/Ferrite)**: A from-scratch neural network inference runtime in C11, built with a collaborator. I wrote the tensor library, math backend, operator kernels, hand-written AVX2 SIMD kernels (13.4× matmul speedup), and INT8 quantisation (75% memory reduction). It runs our AcousticLeakNet model end-to-end from an ONNX file.
+**[Ferrite](https://github.com/AaravGupta17/Ferrite)**: A neural-network inference runtime in 222 KB of C11 with zero dependencies, built with a collaborator. It is 83× smaller than ONNX Runtime and within 2.3× of its latency, with outputs matching to ~1e-8. It includes its own ONNX parser, graph optimiser, memory planner, and hand-written AVX2 kernels, with ports to Raspberry Pi Zero and ESP32. 
 
 **[AcousticLeakNet](https://github.com/AaravGupta17/SJWP_Research)**: A research project on detecting and localising water-pipe leaks from acoustic signals, co-authored with a teammate. I designed the architecture (a 1D CNN with a cross-channel attention module) and ran all model training on EPANET-generated simulations. I'm currently working on the gap between simulated and real-world sensor data.
 
