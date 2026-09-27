@@ -10,9 +10,6 @@ I build software around systems, machine learning, and quantitative computing. I
 
 **[BRSR Liquidity Study](https://github.com/AaravGupta17/brsr-liquidity-rdd)**: Solo econometrics research on whether India's mandatory ESG disclosure rules (BRSR) improved stock market liquidity, using regression discontinuity and event-study methods.
 
-<!-- OPTION A: use if it was a real internship. Replace [Firm]. -->
-**Quantitative computing**: Market-data analysis, simulation, and Monte Carlo optimisation during a quant developer internship at [Firm].
-
 <!-- OPTION B: use if it was the Forage program or self-directed work. -->
 **Quantitative computing**: Market-data analysis, simulation, and Monte Carlo optimisation projects, including JPMorgan's software engineering virtual experience (Forage).
 
